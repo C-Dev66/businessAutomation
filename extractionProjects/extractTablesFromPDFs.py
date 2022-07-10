@@ -8,12 +8,19 @@ In order to this we will be using the camelot-py library
 official documentation can be found at the following:
 https://camelot-py.readthedocs.io/en/master/
 
+pip3 install camelot-py
+pip3 install tk
+pip3 install ghostscript
+
+
 after installing you will need to also add the two dependencies
 1.
 2.
 
 
 """
+
+import camelot
 
 
 
