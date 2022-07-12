@@ -22,6 +22,9 @@ after installing you will need to also add the two dependencies
 
 import camelot
 
+from ctypes.util import find_library
+find_library("gs")
+import tkinter
 
 tables = camelot.read_pdf('foo.pdf', pages='1')
 
