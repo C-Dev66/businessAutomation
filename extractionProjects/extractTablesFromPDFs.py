@@ -23,4 +23,6 @@ after installing you will need to also add the two dependencies
 import camelot
 
 
+tables = camelot.read_pdf('foo.pdf', pages='1')
 
+print(tables)
