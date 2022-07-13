@@ -29,3 +29,5 @@ import tkinter
 tables = camelot.read_pdf('foo.pdf', pages='1')
 
 print(tables)
+
+# Issues with ghostscript still persist
