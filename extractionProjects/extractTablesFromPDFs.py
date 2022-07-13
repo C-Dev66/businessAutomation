@@ -31,3 +31,5 @@ tables = camelot.read_pdf('foo.pdf', pages='1')
 print(tables)
 
 # Issues with ghostscript still persist
+# Will need to continue reeding documentation
+
